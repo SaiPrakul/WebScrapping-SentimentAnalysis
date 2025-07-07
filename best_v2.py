@@ -22,8 +22,8 @@ from pymongo.errors import DuplicateKeyError
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 # --- Configuration ---
-TWITTER_USERNAME = "mkxsacrifical@gmail.com"
-TWITTER_PASSWORD = "Beyblade"
+TWITTER_USERNAME = "Twitter_Username"
+TWITTER_PASSWORD = "Twitter_pwd"
 
 TARGET_ACCOUNTS_FOR_SEARCH = ["ecb"]
 SINCE_DATE = "2025-04-09"
