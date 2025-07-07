@@ -15,8 +15,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 # --- Configuration ---
-TWITTER_USERNAME = "mkxsacrifical@gmail.com"  # Replace with your Twitter username/email
-TWITTER_PASSWORD = "Beyblade"  # Replace with your Twitter password
+TWITTER_USERNAME = "Twitter_Username"
+TWITTER_PASSWORD = "Twitter_pwd"
 TARGET_ACCOUNTS = ["Bloomberg"]
 MAX_POSTS_PER_ACCOUNT = 125 # Maximum posts to scrape per account
 DATABASE_NAME = "twitter_data_bloomberg.db" # New DB name
