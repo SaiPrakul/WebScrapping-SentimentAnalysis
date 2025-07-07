@@ -16,8 +16,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 # --- Configuration ---
-TWITTER_USERNAME = "mkxsacrifical@gmail.com"  # Replace with your Twitter username/email
-TWITTER_PASSWORD = "Beyblade"  # Replace with your Twitter password
+TWITTER_USERNAME = "Twitter_Username"  # Replace with your Twitter username/email
+TWITTER_PASSWORD = "Twitter_pwd"  # Replace with your Twitter password
 
 TARGET_ACCOUNTS_FOR_SEARCH = ["ecb"] # Accounts to search for
 # --- Date Range for Advanced Search ---
